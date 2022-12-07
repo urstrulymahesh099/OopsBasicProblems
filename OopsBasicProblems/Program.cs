@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 namespace OopsBasicProblems
 {
     public class Program
@@ -8,10 +7,10 @@ namespace OopsBasicProblems
         {
             Console.WriteLine("For Understanding Basic Inheritance");
             Console.WriteLine("Click Below options :" + "\n" + "1.Singleinheritance");
-            while (true) 
+            while (true)
             {
-                int option =Convert.ToInt32(Console.ReadLine());
-                switch(option)
+                int option = Convert.ToInt32(Console.ReadLine());
+                switch (option)
                 {
                     case 1:
                         EmployeeInheritance2 e1 = new EmployeeInheritance2("Mahesh", 5009, "Wistron Private Limited");
@@ -19,7 +18,7 @@ namespace OopsBasicProblems
                         break;
                 }
             }
-            
+
         }
     }
 }
